@@ -1,0 +1,58 @@
+# @format
+
+name: flutter_yindaoye
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # extended_text: ^15.0.0
+  intro_views_flutter: ^3.2.0 #引导页
+  video_player: ^2.8.6 #视频播放插件
+  chewie: ^1.8.1 #s视频播放插件基于video_player可以全屏 前进后退
+  image_picker: ^1.1.1 #图片视频选择 拍照录制
+  dio: ^5.4.3+1
+  provider: ^6.1.2
+  flutter_staggered_grid_view: ^0.7.0 #九宫格图排列 1~9
+  easy_image_viewer: ^1.5.0 #图片浏览
+  flutter_tts: ^4.0.2 #语音播报
+  audioplayers: ^6.0.0 #音频播放
+  extended_nested_scroll_view: ^6.2.1
+  easy_refresh: ^3.4.0 #刷新控件
+  loading_more_list: any #上拉加载更多
+  pull_to_refresh_notification: any #下拉加载更多
+  extended_image: any #图片扩展
+  extended_text_field: 15.0.1 #输入框扩展
+  expandable_text: 2.3.0 #展开收起
+  url_launcher: 6.3.0 # url打开外部应用
+  carousel_slider: ^5.0.0 #轮播图 配合video_player播放视频和图片
+  media_kit: ^1.1.10+1
+  media_kit_video: ^1.2.4
+  media_kit_libs_video: ^1.0.4
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/1.jpg
+    - images/2.jpg
+    - images/3.jpg
+    - images/4.jpg
+    - images/5.jpg
+    - images/6.jpg
+    - images/7.jpg
+    - images/8.jpg
+    - images/9.jpg
+    - assets/
